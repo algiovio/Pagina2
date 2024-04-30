@@ -410,6 +410,29 @@ ul {
   background-color: rgba(141, 0, 42, 1);
 }
 
+@media only screen and (max-width: 768px) {
+  .veggiecrumbs {
+    font-size: 30px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+    left: 5%; /* Ajusta la posición del elemento */
+    top: 20px; /* Ajusta la posición del elemento */
+    width: auto; /* Ajusta el ancho del elemento */
+    height: auto; /* Ajusta la altura del elemento */
+  }
+
+  .unite {
+    right: 5%; /* Ajusta la posición del elemento */
+    top: 10px; /* Ajusta la posición del elemento */
+    font-size: 8px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+  }
+
+  .contenedor_redes {
+    right: 8%; /* Ajusta la posición del elemento */
+    top: 10px; /* Ajusta la posición del elemento */
+  }
+
+  /* Agrega más estilos específicos para dispositivos móviles y tabletas según sea necesario */
+}
+
 /* Estilos para dispositivos con un ancho máximo de 480px (teléfonos móviles) */
 @media only screen and (max-width: 480px) {
   .veggiecrumbs {
