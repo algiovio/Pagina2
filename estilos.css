@@ -415,25 +415,31 @@ ul {
   .veggiecrumbs {
     font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
     left: 5%; /* Ajusta la posición del elemento */
-    top: 40px; /* Ajusta la posición del elemento */
+    top: 35px; /* Ajusta la posición del elemento */
     width: auto; /* Ajusta el ancho del elemento */
     height: auto; /* Ajusta la altura del elemento */
   }
 
-  .navegador{
+  .navegador {
     font-size: 6px;
     right: 60%;
     top: 40px;
   }
 
   .unite {
-    right: 2%; /* Ajusta la posición del elemento */
-    top: 10px; /* Ajusta la posición del elemento */
+    right: 1%; /* Ajusta la posición del elemento */
+    top: 20px; /* Ajusta la posición del elemento */
     font-size: 6px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
   }
 
   .contenedor_redes {
     right: 5%; /* Ajusta la posición del elemento */
-    top: 10px; /* Ajusta la posición del elemento */
+    top: 20px; /* Ajusta la posición del elemento */
   }
+
+  .derechos {
+    position: relative;
+    width: auto;
+    height: auto;
+
 }
