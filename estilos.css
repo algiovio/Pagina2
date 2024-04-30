@@ -410,58 +410,30 @@ ul {
   background-color: rgba(141, 0, 42, 1);
 }
 
-@media only screen and (max-width: 768px) {
-  .veggiecrumbs {
-    font-size: 30px;
-    left: 5%; 
-    top: 20px;
-    width: auto; 
-    height: auto;
-  }
-
-  .navegador {
-    right: 5%;
-    top: 20px
-    font-size:10px;
-  }
-
-
-  .unite {
-    right: 5%; 
-    top: 10px; 
-    font-size: 10px; 
-  }
-
-  .contenedor_redes {
-    right: 8%; 
-    top: 10px;
-  }
-
-}
-
+/* Estilos para dispositivos con un ancho máximo de 480px (teléfonos móviles) */
 @media only screen and (max-width: 480px) {
   .veggiecrumbs {
-    font-size: 24px; 
-    left: 5%; 
-    top: 90px; 
-    width: auto; 
-    height: auto;
+    font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+    left: 5%; /* Ajusta la posición del elemento */
+    top: 40px; /* Ajusta la posición del elemento */
+    width: auto; /* Ajusta el ancho del elemento */
+    height: auto; /* Ajusta la altura del elemento */
   }
 
-  .navegador {
-    right: 2%;
-    top: 20px;
-    font-size: 10px;
+  .navegador{
+    font-size: 6px;
+    right: 60%;
+    top: 40px;
   }
 
   .unite {
-    right: 2%;
-    top: 5px; 
-    font-size: 6px; 
+    right: 2%; /* Ajusta la posición del elemento */
+    top: 10px; /* Ajusta la posición del elemento */
+    font-size: 6px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
   }
 
   .contenedor_redes {
-    right: 5%; 
-    top: 5px;
+    right: 5%; /* Ajusta la posición del elemento */
+    top: 10px; /* Ajusta la posición del elemento */
   }
 }
