@@ -419,10 +419,17 @@ ul {
     height: auto;
   }
 
+  .navegador {
+    right: 5%;
+    top: 20px
+    font-size:10px;
+  }
+
+
   .unite {
     right: 5%; 
     top: 10px; 
-    font-size: 8px; 
+    font-size: 10px; 
   }
 
   .contenedor_redes {
@@ -436,13 +443,19 @@ ul {
   .veggiecrumbs {
     font-size: 24px; 
     left: 5%; 
-    top: 10px; 
+    top: 90px; 
     width: auto; 
     height: auto;
   }
 
+  .navegador {
+    right: 2%;
+    top: 20px;
+    font-size: 10px;
+  }
+
   .unite {
-    right: 5%;
+    right: 2%;
     top: 5px; 
     font-size: 6px; 
   }
@@ -451,3 +464,4 @@ ul {
     right: 5%; 
     top: 5px;
   }
+}
