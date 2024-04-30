@@ -421,9 +421,8 @@ ul {
   }
 
   .navegador {
+    width: fit-content;
     font-size: 6px;
-    right: 70%;
-    top: 40px;
   }
 
   .unite {
