@@ -29,6 +29,7 @@ outline:none;
 }
 #navegador ul{
   position: absolute;
+  width: fit-content;
   list-style-type: none;
   text-align: center;
   margin: 75px;
