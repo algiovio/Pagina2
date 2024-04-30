@@ -108,16 +108,13 @@ left: 0px;
 right: 0px;
 }
 
-.derechos
-{
+.derechos{
 background-color: #414141;
 width: 100%;
-height: 20px;
-bottom: 0px;
-align-items: center;
 text-align: center;
+height: auto;
+bottom: 0px;
 color: #fff;
-justify-content: center;
 position: absolute;
 font: 400 12px Inter, sans-serif;
 }
