@@ -410,15 +410,15 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .veggiecrumbs {
-    font-size: 30px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
-    left: 5%; /* Ajusta la posición del elemento */
-    top: 20px; /* Ajusta la posición del elemento */
+    font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+    left: 2%; /* Ajusta la posición del elemento */
+    top: 10px; /* Ajusta la posición del elemento */
     width: auto; /* Ajusta el ancho del elemento */
     height: auto; /* Ajusta la altura del elemento */
   }
 
   .unite {
-    right: 5%; /* Ajusta la posición del elemento */
+    right: 2%; /* Ajusta la posición del elemento */
     top: 10px; /* Ajusta la posición del elemento */
     font-size: 8px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
   }
@@ -428,8 +428,23 @@ ul {
     top: 10px; /* Ajusta la posición del elemento */
   }
 
+  .derechos {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    bottom: 0px;
+  }
+
+  .slider-frame {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      height: auto;
+      bottom: 0px;
+    }
+  }
   /* Agrega más estilos específicos para dispositivos móviles y tabletas según sea necesario */
-}
 
 /* Estilos para dispositivos con un ancho máximo de 480px (teléfonos móviles) */
 @media only screen and (max-width: 480px) {
@@ -444,7 +459,7 @@ ul {
 
   .navegador {
     font-size: 6px;
-    right: 80%;
+    right: 70%;
     top: 40px;
   }
 
@@ -458,6 +473,7 @@ ul {
     right: 5%; /* Ajusta la posición del elemento */
     top: 20px; /* Ajusta la posición del elemento */
   }
+
   .derechos {
     position: absolute;
     width: 100%;
