@@ -28,22 +28,24 @@ outline:none;
   color: white;
   font-size: 10px;
 }
- /*Navegador */
+/*Navegador */
 #navegador ul{
   position: absolute;
   width: fit-content;
   list-style-type: none;
   text-align: center;
-  margin: 75px;
-  padding-left: 32%;
+  margin: 4.7%;
+  padding-left: 40%;
 }
 #navegador li{
+  position: relative;
   font-size: auto;
   display: inline;
   text-align: center;
   margin: 0 10px 0 0;
 }
 #navegador li a {
+  position: relative;
   font-family: Arial;
   font-size: 10px;
   padding: 2px 10px 2px 7px;
