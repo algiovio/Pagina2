@@ -457,14 +457,4 @@ ul {
     right: 5%; /* Ajusta la posición del elemento */
     top: 20px; /* Ajusta la posición del elemento */
   }
-
-  .derechos {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-  }
 }
