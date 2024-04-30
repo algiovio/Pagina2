@@ -321,7 +321,6 @@ ul {
 .lista-pasteleria {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
   position: relative;
 }
 
@@ -341,7 +340,7 @@ ul {
   height: 100%;
   max-height: 200px;
   display: block;
-  margin: 20px;
+  margin: 20px 80px;
 }
 
 .comentarios {
