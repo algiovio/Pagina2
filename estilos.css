@@ -436,9 +436,10 @@ ul {
 /* Estilos para dispositivos con un ancho máximo de 480px (teléfonos móviles) */
 @media only screen and (max-width: 480px) {
   .veggiecrumbs {
+    position: absolute;
     font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
     left: 5%; /* Ajusta la posición del elemento */
-    top: 35px; /* Ajusta la posición del elemento */
+    top: 70px; /* Ajusta la posición del elemento */
     width: auto; /* Ajusta el ancho del elemento */
     height: auto; /* Ajusta la altura del elemento */
   }
@@ -462,7 +463,8 @@ ul {
 
   .derechos {
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
+    bottom: 0px;
   }
 }
