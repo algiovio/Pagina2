@@ -109,15 +109,15 @@ left: 0px;
 right: 0px;
 }
 
-.derechos{
-background-color: #414141;
-width: 100%;
-text-align: center;
-height: auto;
-bottom: 0px;
-color: #fff;
-position: absolute;
-font: 400 12px Inter, sans-serif;
+.derechos {
+  bottom: 0;
+  background-color: #414141;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  color: #fff;
+  position: fixed; /* O cambia a position: absolute si prefieres que esté posicionado con respecto a su contenedor */
+  font: 400 12px Inter, sans-serif;
 }
 
 .slider-frame {
