@@ -409,3 +409,45 @@ ul {
 .carga-cv button:hover {
   background-color: rgba(141, 0, 42, 1);
 }
+
+@media only screen and (max-width: 768px) {
+  .veggiecrumbs {
+    font-size: 30px;
+    left: 5%; 
+    top: 20px;
+    width: auto; 
+    height: auto;
+  }
+
+  .unite {
+    right: 5%; 
+    top: 10px; 
+    font-size: 8px; 
+  }
+
+  .contenedor_redes {
+    right: 8%; 
+    top: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .veggiecrumbs {
+    font-size: 24px; 
+    left: 5%; 
+    top: 10px; 
+    width: auto; 
+    height: auto;
+  }
+
+  .unite {
+    right: 5%;
+    top: 5px; 
+    font-size: 6px; 
+  }
+
+  .contenedor_redes {
+    right: 5%; 
+    top: 5px;
+  }
