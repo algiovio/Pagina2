@@ -446,7 +446,7 @@ ul {
 
   .navegador {
     font-size: 6px;
-    right: 60%;
+    right: 80%;
     top: 40px;
   }
 
@@ -463,8 +463,11 @@ ul {
 
   .derechos {
     position: relative;
+    text-align: center;
     width: 100%;
     height: auto;
     bottom: 0px;
+    right: 0px;
+    left: 0px;
   }
 }
